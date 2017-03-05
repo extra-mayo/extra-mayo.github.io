@@ -55,13 +55,13 @@ function WinterScene(world) {
 
 
     this.text = document.createElement("a-entity");
-    this.text.setAttribute("bmfont-text", "text: Happy Holidays!!!; color: white");
+    this.text.setAttribute("bmfont-text", "text: a few more months till xmas...; color: white");
     this.text.setAttribute("position", "-0.8, 2.5, 0");
     this.text.setAttribute("scale", "3, 3, 3");
     world.scene.appendChild(this.text);
 
     this.textTwo = document.createElement("a-entity");
-    this.textTwo.setAttribute("bmfont-text", "text: Click on the presents for a surprise!; color: white");
+    this.textTwo.setAttribute("bmfont-text", "text: click on the presents!!; color: white");
     this.textTwo.setAttribute("position", "-1, 2, 0");
     this.textTwo.setAttribute("scale", "1.5, 1.5, 1.5");
     world.scene.appendChild(this.textTwo);
